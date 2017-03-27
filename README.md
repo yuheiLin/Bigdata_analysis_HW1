@@ -21,9 +21,10 @@ Use sklearn RandomForestRegressor to find feature importances
  * 10. feature 1430 (0.015106)
 
 2. Useless feature:
-  + After rank 13 ,feature 313 (0.010672),
-  the rest of the importances are less than 1%, so those might be useless
+  + After rank 13 ,feature 313 (0.010672),the rest of the importances are less than 1%, so those might be useless
 
 3. Use sklearn library's RandomForestRegressor in Python
 
-4. 
+4. sklearn library , (Using pandas to draw plot and check important feature)
+
+5. 尚無建議
