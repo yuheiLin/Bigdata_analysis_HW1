@@ -5,7 +5,10 @@ B10315011 NTUST 四資工三甲 林航平
 
 Use sklearn RandomForestRegressor to find feature importances
 
-1. important feature: Feature ranking
+This is [an example](http://example.com/ "Title")
+
+1. important feature: 
+ * #Feature ranking (Feature importance)
  * 1. feature 826 (0.397582)
  * 2. feature 282 (0.175932)
  * 3. feature 1513 (0.060665)
@@ -17,4 +20,6 @@ Use sklearn RandomForestRegressor to find feature importances
  * 9. feature 25 (0.018032)
  * 10. feature 1430 (0.015106)
 2. Useless feature:
-  * hey
+  After rank 13 ,feature 313 (0.010672),
+  the rest of the importances are less than 1%, so those might be useless
+3. 
