@@ -2,7 +2,7 @@
 HW1 to find important feature
 
 B10315011 NTUST 四資工三甲 林航平
-
+執行結果有截圖在screenshot,裡面還有一張pandas畫the most important feature / class
 Use sklearn RandomForestRegressor to find feature importances
 
 [Reference](http://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html)
