@@ -19,8 +19,11 @@ This is [an example](http://example.com/ "Title")
  * 8. feature 561 (0.018057)
  * 9. feature 25 (0.018032)
  * 10. feature 1430 (0.015106)
-2. Useless feature:
 
-  After rank 13 ,feature 313 (0.010672),
+2. Useless feature:
+  + After rank 13 ,feature 313 (0.010672),
   the rest of the importances are less than 1%, so those might be useless
-3. 
+
+3. Use sklearn library's RandomForestRegressor in Python
+
+4. 
