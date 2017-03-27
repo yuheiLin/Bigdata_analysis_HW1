@@ -8,7 +8,7 @@ Use sklearn RandomForestRegressor to find feature importances
 This is [an example](http://example.com/ "Title")
 
 1. important feature: 
- * #Feature ranking (Feature importance)
+ #Feature ranking (Feature importance)
  * 1. feature 826 (0.397582)
  * 2. feature 282 (0.175932)
  * 3. feature 1513 (0.060665)
