@@ -53,6 +53,7 @@ Regressor假設 class1到9 為實數去接近該數,可能可以看出 class1到
  + AdjustWindowRectEx 
  + GetEnvironmentVariableA	
  + SHGetFileInfoA
+ 
  Test these 10 features with weka using LibSVM training set, it is only 59% correct
  
 3. Use sklearn library's RandomForestRegressor and RandonforestClassifier in Python
