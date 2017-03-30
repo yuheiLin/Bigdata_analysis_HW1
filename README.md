@@ -2,26 +2,38 @@
 HW1 to find important feature
 
 B10315011 NTUST 四資工三甲 林航平
-執行結果有截圖在screenshot,裡面還有一張pandas畫the most important feature / class
-Use sklearn RandomForestRegressor to find feature importances
-
+執行結果有截圖在screenshot,(RF_classifier_top10_feature, RF_regressor_top10_feature)
+Use sklearn RandonForestClassifier, RandomForestRegressor to find feature importances
+Regressor假設class 1~9為實數去接近該數,可能可以看出class 1~9是否有和歸屬類別的數值1~9有特別意義
 [Reference](http://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html)
 
 1. important feature: 
+ * ## RF_classifier
  * #Feature ranking (Feature importance)
- * 1. feature 826 (0.397582)    __getmainargs
- * 2. feature 282 (0.175932)
- * 3. feature 1513 (0.060665)
- * 4. feature 306 (0.038663)
- * 5. feature 1497 (0.036800)
- * 6. feature 1493 (0.023518)
- * 7. feature 285 (0.020039)
- * 8. feature 561 (0.018057)
- * 9. feature 25 (0.018032)
- * 10. feature 1430 (0.015106)
+ * 1. TB_9a	
+ * 2. TB_a9	
+ * 3. Img0.1
+ * 4. ent_p_5	
+ * 5. TB_b1
+ * 6. TB_71	
+ * 7. ent_p_8	
+ * 8. TB_ce	
+ * 9.GetStringTypeA	
+ * 10. ExitProcess
+
+ * ## RF_regressor
+ * 1. __getmainargs	
+ * 2. ent_p_diffs_5
+ * 3. db3_NdNt	
+ * 4. dc_por	
+ * 5. section_names_header	
+ * 6. ent_p_diffs_8	
+ * 7. Offset.1	
+ * 8. _initterm	
+ * 9. Unknown_Sections_lines_por	
+ * 10. char
 
 2. Useless feature:
-  + After rank 13 ,feature 313 (0.010672),the rest of the importances are less than 1%, so those might be useless
 
 3. Use sklearn library's RandomForestRegressor in Python
 
