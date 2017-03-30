@@ -57,8 +57,8 @@ Regressor假設 class1到9 為實數去接近該數,可能可以看出 class1到
  Test these 10 features with weka using LibSVM training set, it is only 59% correct
  
 3. Use sklearn library's RandonforestClassifier,取前10後10當important and useless features.
-   結果也相當不錯，用兩個重要feature即可100%分類成功
-   
+   結果也相當不錯，用兩個重要feature即可100%分類成功，而用importance分數最低的10個features則分類59%成功，要說feature對分類無效也不對，因為若完全對分類無效正確率應該要接近1/9，可能有更好的方法去找完全無效的features
+   
 4. sklearn library 做feature selection, 用pandas,numpy處理資料, matplotlib.pyplot畫圖
 
 5. 尚無建議
