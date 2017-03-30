@@ -4,7 +4,7 @@ HW1 to find important feature
 B10315011 NTUST 四資工三甲 林航平
 執行結果有截圖在screenshot,(RF_classifier_top10_feature, RF_regressor_top10_feature)
 Use sklearn RandonForestClassifier, RandomForestRegressor to find feature importances
-Regressor假設class 1~9為實數去接近該數,可能可以看出class 1~9是否有和歸屬類別的數值1~9有特別意義
+Regressor假設class1~9為實數去接近該數,可能可以看出class 1~9是否有和歸屬類別的數值1~9有特別意義
 [Reference](http://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html)
 
 1. important feature: 
